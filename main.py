@@ -1,16 +1,28 @@
-# This is a sample Python script.
+# Square of numbers
+# numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+#
+# squared_numbers = [n**2 for n in numbers]
+#
+# print(squared_numbers)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# -------------------------------------------------
+# FILTERING EVEN NUMBERS
 
+# list_of_strings = input().split(',')
+#
+# list_of_numbers = [int(n) for n in list_of_strings]
+# result = [n for n in list_of_numbers if n % 2 == 0]
+# print(result)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# -------------------------------------------------
+# DATA OVERLAP
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# data1 = open(file="file1.txt").read()
+# data2 = open(file="file2.txt").read()
+#
+# data1_list = data1.split("\n")
+# data2_list = data2.split("\n")
+#
+#
+# result = [int(n) for n in data1_list if n in data2_list]
+# print(result)
