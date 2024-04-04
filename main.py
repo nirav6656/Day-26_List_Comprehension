@@ -26,3 +26,17 @@
 #
 # result = [int(n) for n in data1_list if n in data2_list]
 # print(result)
+
+# -------------------------------------------------
+# DICTIONARY COMPREHENSION 1
+
+sentence = input()
+sentence_list = sentence.split()
+
+result = {n: len(n) for n in sentence_list}
+
+print(result)
+
+
+# -------------------------------------------------
+# DICTIONARY COMPREHENSION 2
