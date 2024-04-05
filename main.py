@@ -30,13 +30,34 @@
 # -------------------------------------------------
 # DICTIONARY COMPREHENSION 1
 
-sentence = input()
-sentence_list = sentence.split()
-
-result = {n: len(n) for n in sentence_list}
-
-print(result)
+# sentence = input()
+# sentence_list = sentence.split()
+#
+# result = {n: len(n) for n in sentence_list}
+#
+# print(result)
 
 
 # -------------------------------------------------
 # DICTIONARY COMPREHENSION 2
+
+# weather_c = (eval(input()))
+#
+#
+# weather_f = {key: (item * (9 / 5)) + 32 for (key, item) in weather_c.items()}
+#
+# print(weather_f)
+
+# -------------------------------------------------
+# Pandas Dataframe
+
+# student_dict = {
+#     "student" : ["nik","radha","james","lily"],
+#     "score" : [56,76,98,45]
+# }
+#
+# import pandas
+# student_data_frames = pandas.DataFrame(student_dict)
+#
+# for (index,row) in student_data_frames.iterrows():
+#     print(row.score)
